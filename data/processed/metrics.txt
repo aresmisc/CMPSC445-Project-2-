@@ -1,0 +1,84 @@
+Model Training Summary
+==================================================
+
+Data Sources Used:
+1. 2025 Pennsylvania County Health Rankings Excel Workbook
+2. PA Open Data ACS Income and Poverty County Dataset
+
+Latest ACS Year Used: 2019-01-01
+Number of counties: 67
+Number of features: 21
+
+Features used:
+- median_household_income
+- per_capita_income
+- poverty_rate
+- population
+- life_expectancy
+- exercise_access
+- food_environment_index
+- some_college
+- high_school_completion
+- broadband_access
+- social_association_rate
+- unemployment_rate
+- children_poverty
+- severe_housing_problems
+- uninsured_rate
+- poor_or_fair_health
+- poor_physical_health_days
+- poor_mental_health_days
+- income_inequality
+- child_care_cost_burden
+- rural_percent
+
+Model Comparison:
+             model_name          MAE         RMSE       R2
+      Linear Regression 5.831526e-13 7.238549e-13 1.000000
+Random Forest Regressor 2.989426e+00 3.631527e+00 0.914335
+Decision Tree Regressor 4.388790e+00 5.182176e+00 0.825559
+
+Final Model Selected: Random Forest Regressor
+MAE: 2.9894
+RMSE: 3.6315
+R2 Score: 0.9143
+
+Missing features:
+[]
+
+Top 10 counties:
+ rank       County  predicted_livability_score  category
+    1      Chester                   86.485378 Excellent
+    2   Montgomery                   85.091404 Excellent
+    3        Bucks                   80.446907 Excellent
+    4   Cumberland                   76.669066 Excellent
+    5       Butler                   74.721227      Good
+    6     Delaware                   72.212953      Good
+    7 Westmoreland                   70.125912      Good
+    8    Allegheny                   69.387841      Good
+    9  Northampton                   67.522847      Good
+   10   Washington                   67.166906      Good
+
+Feature importance:
+                  feature  importance
+poor_physical_health_days    0.276018
+        per_capita_income    0.201243
+             some_college    0.163985
+      poor_or_fair_health    0.097107
+         children_poverty    0.064242
+             poverty_rate    0.041545
+  median_household_income    0.034625
+   high_school_completion    0.019633
+         broadband_access    0.018722
+           uninsured_rate    0.016909
+  poor_mental_health_days    0.012296
+          life_expectancy    0.011472
+   food_environment_index    0.007071
+               population    0.006705
+        unemployment_rate    0.005562
+          exercise_access    0.005143
+        income_inequality    0.005057
+  social_association_rate    0.003413
+   child_care_cost_burden    0.003336
+            rural_percent    0.003224
+  severe_housing_problems    0.002693

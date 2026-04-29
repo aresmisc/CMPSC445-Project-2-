@@ -1,0 +1,75 @@
+ACS Income and Poverty Dataset Inspection
+==================================================
+
+Shape: (469, 27)
+
+Columns:
+- year
+- state
+- county_1
+- county
+- family_households
+- nonfamily_households
+- fam_households_income12mntsbelowpoverty
+- nonfam_households_income12mntsbelowpoverty
+- population
+- pop_belowpoverty
+- pop_belowpoverty_lt6
+- pop_belowpoverty_6to11
+- pop_belowpoverty_12to17
+- pop_belowpoverty_18to59
+- pop_belowpoverty_60to74
+- pop_belowpoverty_75to84
+- pop_belowpoverty_85plus
+- pop_abovepoverty
+- pop_abovepoverty_lt6
+- pop_abovepoverty_6to11
+- pop_abovepoverty_12to17
+- pop_abovepoverty_18to59
+- pop_abovepoverty_60to74
+- pop_abovepoverty_75to84
+- pop_abovepoverty_85plus
+- median_household_income
+- per_capita_income
+
+First 10 Rows:
+                   year  state  county_1                         county  family_households  nonfamily_households  fam_households_income12mntsbelowpoverty  nonfam_households_income12mntsbelowpoverty  population  pop_belowpoverty  pop_belowpoverty_lt6  pop_belowpoverty_6to11  pop_belowpoverty_12to17  pop_belowpoverty_18to59  pop_belowpoverty_60to74  pop_belowpoverty_75to84  pop_belowpoverty_85plus  pop_abovepoverty  pop_abovepoverty_lt6  pop_abovepoverty_6to11  pop_abovepoverty_12to17  pop_abovepoverty_18to59  pop_abovepoverty_60to74  pop_abovepoverty_75to84  pop_abovepoverty_85plus  median_household_income  per_capita_income
+2013-01-01T00:00:00.000     42         1     Adams County, Pennsylvania              27482                 10659                                     1590                                        1316       97050              8490                  1106                    1064                      943                     4110                      757                      384                      126             88560                  5432                    5694                     7332                    48950                    14693                     4891                     1568                    59492              27284
+2013-01-01T00:00:00.000     42         3 Allegheny County, Pennsylvania             304369                221635                                    26987                                       41401     1193906            153529                 14860                   13769                    13280                    87912                    13890                     6069                     3749           1040377                 61264                   63513                    69688                   594169                   160443                    62592                    28708                    51366              31593
+2013-01-01T00:00:00.000     42         5 Armstrong County, Pennsylvania              19424                  9101                                     1868                                        1758       67797              8828                  1021                     896                      853                     4500                      936                      338                      284             58969                  3133                    3558                     4135                    32453                    10207                     4001                     1482                    45241              23661
+2013-01-01T00:00:00.000     42         7    Beaver County, Pennsylvania              46783                 24084                                     4115                                        4360      167369             20342                  2487                    2093                     1834                    10444                     2121                      978                      385            147027                  8383                    9128                    10209                    80375                    24617                    10405                     3910                    49217              26258
+2013-01-01T00:00:00.000     42         9   Bedford County, Pennsylvania              14168                  6030                                     1304                                        1289       48655              6146                   609                     574                      605                     3159                      728                      310                      161             42509                  2342                    2937                     3209                    22653                     7721                     2764                      883                    43290              22259
+2013-01-01T00:00:00.000     42        11     Berks County, Pennsylvania             105671                 48226                                    10643                                        7679      399090             55348                  7577                    6512                     6349                    28721                     4187                     1526                      476            343742                 21714                   24629                    27706                   193914                    50039                    18581                     7159                    55170              26723
+2013-01-01T00:00:00.000     42        13     Blair County, Pennsylvania              33328                 18105                                     3186                                        3951      123627             17479                  2073                    1956                     1433                     9609                     1456                      588                      364            106148                  6100                    7077                     7464                    58022                    18182                     6898                     2405                    42992              23875
+2013-01-01T00:00:00.000     42        15  Bradford County, Pennsylvania              16738                  7475                                     1593                                        1451       61570              8166                  1056                     883                      652                     4103                      961                      357                      154             53404                  3348                    3687                     4049                    28708                     9315                     3156                     1141                    46963              23667
+2013-01-01T00:00:00.000     42        17     Bucks County, Pennsylvania             165708                 64658                                     6402                                        7372      617588             33433                  2969                    3182                     3118                    17415                     3807                     1908                     1034            584155                 36448                   44092                    49334                   329161                    85924                    27376                    11820                    76555              37466
+2013-01-01T00:00:00.000     42        19    Butler County, Pennsylvania              50064                 23149                                     3050                                        4039      179511             16756                  1578                    1380                     1270                    10127                     1458                      691                      252            162755                 10112                   11961                    13402                    90645                    24648                     8477                     3510                    58230              30957
+
+Missing Values:
+year                                          0
+state                                         0
+county_1                                      0
+county                                        0
+family_households                             0
+nonfamily_households                          0
+fam_households_income12mntsbelowpoverty       0
+nonfam_households_income12mntsbelowpoverty    0
+population                                    0
+pop_belowpoverty                              0
+pop_belowpoverty_lt6                          0
+pop_belowpoverty_6to11                        0
+pop_belowpoverty_12to17                       0
+pop_belowpoverty_18to59                       0
+pop_belowpoverty_60to74                       0
+pop_belowpoverty_75to84                       0
+pop_belowpoverty_85plus                       0
+pop_abovepoverty                              0
+pop_abovepoverty_lt6                          0
+pop_abovepoverty_6to11                        0
+pop_abovepoverty_12to17                       0
+pop_abovepoverty_18to59                       0
+pop_abovepoverty_60to74                       0
+pop_abovepoverty_75to84                       0
+pop_abovepoverty_85plus                       0
+median_household_income                       0
+per_capita_income                             0
